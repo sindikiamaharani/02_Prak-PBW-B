@@ -1,0 +1,84 @@
+body {
+    font-family:"Fascinate Inline", system-ui;
+    color: rgba(245, 236, 236, 0.861);
+    font-weight: 400;
+    font-style: normal;
+    background-image: url(image2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+}
+
+#namaDisplay{
+    font-family: monospace;
+    color:  #63324a ;
+    font-style: normal;
+}
+
+#nimDisplay{
+    font-family: monospace;
+    color:  #552e01;
+    font-style: normal;
+}
+
+.result-container {
+    background-color: #bdaaaa;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgb(253, 253, 251);
+    text-align: center;
+    width: 50%;
+    max-width: 500px;
+    display: none;
+}
+
+.result-container p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.input-container {
+    text-align: center;
+    background-color: #420125;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgb(241, 240, 240);
+}
+
+.navigate-button {
+    padding: 10px 8px;
+    background-color: #e9e0d6;
+    color: #5a0526;
+    border: none;
+    border-radius: 5px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.navigate-button:hover {
+    background-color:  #f8f8f8;
+}
+
+.start-button {
+    padding: 10px 20px;
+    background-color: #e9e0d6;
+    color: #5f0034;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.start-button:hover {
+    background-color: #f8f8f8;
+}

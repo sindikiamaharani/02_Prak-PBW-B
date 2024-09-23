@@ -1,0 +1,47 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url(image1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.button-container {
+    text-align: center;
+    text-decoration: none;
+    background-color: #026464;
+    color: rgb(250, 211, 211);
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+h1{
+    font-family: "Fascinate Inline", system-ui;
+    font-weight: 800;
+}
+
+p{
+    font-family:"Oswald", sans-serif;
+    font-weight: 600;
+}
+
+.navigate-button {
+    padding: 15px 30px;
+    background-color: #fa8989;
+    color: rgb(243, 232, 232);
+    border: none;
+    border-radius: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.navigate-button:hover {
+    background-color: #fac3c3;
+}
